@@ -16,10 +16,10 @@
 module load fastqc/0.12.1
 
 # Replace "input_folder" with the actual path to your folder containing FASTQ files
-input_folder="/project/piru_hylaues/KochProjects/alkalibeepopgen/stacks_pipeline/process_radtags"
+input_folder="/project/piru_hylaues/KochProjects/alkalibeepopgen/stacks_pipeline/process_radtags2"
 
 # Replace "output_folder" with the desired path for FastQC results
-output_folder="/project/piru_hylaues/KochProjects/alkalibeepopgen/stacks_pipeline/fastqc"
+output_folder="/project/piru_hylaues/KochProjects/alkalibeepopgen/stacks_pipeline/fastqc2"
 
 # Create the output folder if it doesn't exist
 mkdir -p "$output_folder"
